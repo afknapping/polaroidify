@@ -2,10 +2,17 @@
 
 polaroidify.sh creates polaroid-ish versions of square images.
 
+The intention is to batch-process a folder of favourite images and then order cheap 9cm standard prints.
+
 ## Before/After
 
 
 ![IMG_0164](https://user-images.githubusercontent.com/170145/57106659-4a100d80-6d2e-11e9-81d4-6f4cdd428604.jpg) ➡️ ![2019-04-07--IMG_0164](https://user-images.githubusercontent.com/170145/57106660-4a100d80-6d2e-11e9-8a92-9399b9a0e296.jpg)
+
+For ordering prints, you can for example use "Originalformt" at [fotoparadies.de](https://www.fotoparadies.de/fotos/fotoabzuege.html). 9cm is close enough to the original polaroid format... for me at least.
+
+![order-polaroids](https://user-images.githubusercontent.com/170145/57108021-e2f45800-6d31-11e9-8449-efcdc0c3b668.jpeg)
+
 
 ---
 
@@ -42,12 +49,8 @@ Ideally, it would put out something like this:
 ```
 created favs-190502-polaroids
 
-OK read and converted favs-190502/445b989b-115a-47a2-8df9-4919f1ad89a9.jpg
-OK wrote favs-190502-polaroids/2019-05-01--445b989b-115a-47a2-8df9-4919f1ad89a9.jpg
-OK read and converted favs-190502/IMG_0149.jpg
-OK wrote favs-190502-polaroids/2019-04-07--IMG_0149.jpg
-OK read and converted favs-190502/IMG_0153.jpg
-OK wrote favs-190502-polaroids/2019-04-07--IMG_0153.jpg
+OK read and converted favs-190502/IMG_4592.jpg
+OK wrote favs-190502-polaroids/2019-05-01--IMG_4592.jpg
 
 The files are in favs-190502-polaroids
 
