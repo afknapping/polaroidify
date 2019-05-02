@@ -29,13 +29,18 @@ For ordering prints, you can for example use "Originalformt" at [fotoparadies.de
 
 🚀 It reads EXIF data and prepends the original filename with the creation date of the picture.
 
-**So if you have a folder `favs-190502` where you exported your favourites into and in that a file `IMG_4592.jpg`, you will then have a folder `favs-190502-polaroids` and in it a file `19-04-14--IMG_4592.jpg` (where April 14 2019 would be the extracted date from the EXIF data).**
+**So if you have a folder `favs-190502` where you exported your favourites into and in that the files `IMG_0164.jpg` and `IMG_0384.jpg`, you will then have a folder `favs-190502-polaroids` and in it the files `2019-04-07--IMG_0164.jpg` and `2019-04-07--IMG_0164.jpg` (where April 14 2019 would be the extracted date from the EXIF data).**
 
 ```
 
 |
-|`- favs-190502/IMG_4592.jpg
- `- favs-190502-polaroids/19-04-14--IMG_4592.jpg
+|`- favs-190502
+|      |`- IMG_0164.jpg
+|      `-- IMG_0384.jpg
+|
+|`- favs-190502-polaroids
+       |`- 2019-04-07--IMG_0164.jpg
+       `-- 2019-04-20--IMG_0384.jpg
 
 ```
 
