@@ -48,11 +48,9 @@
 
 Example:
     
-    ```
     git clone git@github.com:afknapping/polaroidify.sh.git polaroidify
     # given there is a folder with square source images called favs-190502
     polaroidify/polaroidify.sh favs-190502
-    ```
 
 Ideally, it would put out something like this:
 
