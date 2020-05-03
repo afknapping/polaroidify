@@ -64,10 +64,7 @@ OK wrote favs-190502-polaroids/2019-04-20--IMG_0384.jpg
 
 The files are in favs-190502-polaroids
 
-Open directory? [Y/n]
 ```
-
-If you answer with `y`, a Finder window will open, from which you can drag the files into any photo printing service.
 
 ---
 
