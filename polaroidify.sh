@@ -1,6 +1,7 @@
 #!/bin/bash
 
-POLAROIDFEAME=~/src/imagemgick-tests/polaroid-frame.png
+# POLAROIDFEAME=~/src/imagemgick-tests/polaroid-frame.png
+POLAROIDFEAME=./src/polaroidify/polaroid-frame.png
 
 echo "$1"
 CLEAN1=${1%/}
@@ -64,20 +65,20 @@ echo " "
 echo "The files are in $POLAROIDDIR"
 echo " "
 
-read -r -p "Open directory? [Y/n] " input
+# read -r -p "Open directory? [Y/n] " input
  
-case $input in
-    [yY][eE][sS]|[yY])
-    open $POLAROIDDIR
- ;;
-    [nN][oO]|[nN])
- echo "Ok then."
-       ;;
-    *)
- echo "Invalid input..."
- exit 1
- ;;
-esac
+# case $input in
+#     [yY][eE][sS]|[yY])
+#     open $POLAROIDDIR
+#  ;;
+#     [nN][oO]|[nN])
+#  echo "Ok then."
+#        ;;
+#     *)
+#  echo "Invalid input..."
+#  exit 1
+#  ;;
+# esac
 
 
 
